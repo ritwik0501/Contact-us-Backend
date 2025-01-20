@@ -2,8 +2,7 @@
 const mongoose=require("mongoose")
 const contactmodel=new mongoose.Schema({
     topic:{
-        type:String,
-        enum:["Residental","Commercial","others"]
+        type:String
     },
     username:{
         type:String,
